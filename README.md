@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrcv
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the [coefficient of variation][coefficient-of-variation] (CV) incrementally.
 
@@ -160,6 +160,25 @@ console.log( accumulator() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mcv`][@stdlib/stats/incr/mcv]</span><span class="delimiter">: </span><span class="description">compute a moving coefficient of variation (CV) incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/vmr`][@stdlib/stats/incr/vmr]</span><span class="delimiter">: </span><span class="description">compute a variance-to-mean ratio (VMR) incrementally.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -203,8 +222,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-cv/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-cv?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-cv.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-cv/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
@@ -220,6 +243,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [arithmetic-mean]: https://en.wikipedia.org/wiki/Arithmetic_mean
 
 [sample-stdev]: https://en.wikipedia.org/wiki/Standard_deviation
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
+
+[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
+
+[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr
+
+<!-- </related-links> -->
 
 </section>
 
