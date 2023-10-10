@@ -93,7 +93,7 @@ c_v = \frac{s}{\bar{x}}
 ## Usage
 
 ```javascript
-import incrcv from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-cv@deno/mod.js';
+import incrcv from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-cv@v0.1.1-deno/mod.js';
 ```
 
 #### incrcv( \[mean] )
@@ -154,7 +154,7 @@ cv = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrcv from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-cv@deno/mod.js';
+import incrcv from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-cv@v0.1.1-deno/mod.js';
 
 var accumulator;
 var v;
